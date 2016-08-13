@@ -1,0 +1,146 @@
+<!DOCTYPE html public "-//w3c//dtd xhtml 1.0 transitional//en" "http://www.w3.org/tr/xhtml1/dtd/xhtml1-transitional.dtd">
+<html>
+<head>
+	<title>Task 4</title>
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+	<!--[if It IE 9]>
+	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+	<![endif]-->
+	<style type="text/css">
+		html {
+			width: 100%;
+			height: 100%;
+			margin: 0;
+			font-size: 62.5%;
+		}
+		body {
+			width: 100%;
+			height: 100%;
+			margin: 0;
+			font-size: 1.5rem;
+			background-color: #eff0f4;
+		}
+		header.hd {
+			background-color: #5fc0cd;
+			width: 100%;
+			height: 50px;
+			color: white;
+			font-family: "Adobe 黑体 Std";
+			position: relative;
+			clear: both;
+		}
+		header#close {
+			position: absolute;
+			left: 20px;
+			line-height: 50px;
+		}
+		header#login {
+			position: relative;
+			line-height: 50px;
+			text-align: center;
+			margin-left: auto;
+			margin-right: auto;
+			font-size: 1.6rem;
+			clear: both;
+		}
+		header#signup {
+			position: absolute;
+			right: 20px;
+			line-height: 50px;
+		}
+		div#phone {
+			background-color: white;
+			width: 100%;
+			height: 50px;
+			position: relative;
+			top: 15px;
+		}
+		div#pw {
+			background-color: white;
+			width: 100%;
+			height: 50px;
+			position: relative;
+			top: 25px;
+		}
+		table {
+			height: 30px;
+			width: 100%;
+			float: left;
+			margin-top: 8px;
+		}
+		#icon {
+			width: 60px;
+			height: 30px;
+			text-align: center;
+			padding: 0px;
+			margin: 0px;
+		}
+		#bk {
+			width: 0.5px;
+			background-color: #eaedee;
+		}
+		td input {
+			font-size: 1.4rem;
+			width: 95%;
+			border-style: none;
+			font-family: "Adobe 黑体 Std";
+			position: relative;
+			left: 10px;
+			height: 30px;
+			padding: 0px;
+		}
+		img {width: 17px;}
+		input#lg {
+			height: 50px;
+			width: 100%;
+			position: relative;
+			top: 40px;
+			background-color: #5fc0cd;
+			color: white;
+			text-align: center;
+			vertical-align: middle;
+			font-family: "Adobe 黑体 Std";
+			font-size: 1.5rem;
+			border-style: none;
+		}
+		p#forget {
+			color: #5fc0cd;
+			font-family: "Adobe 黑体 Std";
+			font-size: 1.4rem;
+			position: relative;
+			right: 10px;
+			top: 30px;
+			float: right;
+		}
+	</style>
+</head>
+<body>
+	<header class="hd">
+		<header id="close">关闭</header>
+		<header id="signup">注册</header>
+		<header id="login">登陆</header>
+	</header>
+	<form>
+	<div id="phone">
+		<table>
+			<tr>
+				<td id="icon"><img src="/jnshu038/CSS/Task4/images/phone.png"></td>
+				<td id="bk"></td>
+				<td><input type="text" name="phone" maxlength="11" pattern="[0-9]" placeholder="请输入手机号"></td>
+			</tr>
+		</table>
+	</div>
+	<div id="pw">
+		<table>
+			<tr>
+				<td id="icon"><img src="/jnshu038/CSS/Task4/images/password.png"></td>
+				<td id="bk"></td>
+				<td><input type="password" name="pw" placeholder="请输入密码"></td>
+			</tr>
+		</table>
+	</div>
+	<div><input id="lg" type="submit" name="submit" value="登 陆"></div>
+	<p id="forget">忘记密码？</p>
+	</form>
+</body>
+</html>
